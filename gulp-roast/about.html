@@ -15,10 +15,12 @@
 </head>
 
 <!--BODY-->
+
 <body>
     <header>
         <nav>
-            <ul>     <!--linked logo-->
+            <ul>
+                <!--linked logo-->
                 <li class="logo"><img src="media/images/gulp-logo-light.png" alt="Gulp Roast. Click for home."
                         alt="Gulp Roast. Click for home."></li>
                 <li><a href="https://uxuicurriculum.wixsite.com/gulproast"><span aria-hidden="true"
@@ -47,11 +49,17 @@
                 <a class="button" href="https://uxuicurriculum.wixsite.com/gulproast">Contact Us</a>
             </article>
 
-            <figure>
-                <img src="media/images/gulp-pouring-coffee-vertical.jpg"
+            <picture>
+                <source srcset="media/images/gulp-pouring-coffee-horizontal.jpg" media="(min-width: 1200px">
+                <source srcset="media/images/gulp-pouring-coffee-vertical.jpg" media="(min-width: 992px">
+                <img src="media/images/gulp-pouring-coffee-horizontal-sm.jpg"
                     alt="Making pour-over coffee at our shop.">
-                <figcaption>Our pour-over coffee is known for its freshness and amazing taste.</figcaption>
-            </figure>
+                
+                <!--   <figure>     FIGCAPTION removed to match figma prototypes
+                    <figcaption>Our pour-over coffee is known for its freshness and amazing taste.</figcaption>
+                </figure> -->
+            </picture>
+
         </section>
 
     </div>
